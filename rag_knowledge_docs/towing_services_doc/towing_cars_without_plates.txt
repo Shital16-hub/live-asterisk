@@ -1,0 +1,10 @@
+SERVICE: Towing Cars Without Plates
+BASE_PRICE: 130
+DESCRIPTION: Towing service for vehicles without license plates.
+REQUIREMENTS: Standard tow truck, Proof of ownership
+TIME: 30-90 minutes
+PRICING_RULES:
+- Base price: $130
+- Distance: $1.30 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 

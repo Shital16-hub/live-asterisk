@@ -1,0 +1,10 @@
+SERVICE: Construction Towing
+BASE_PRICE: 350
+DESCRIPTION: Towing service for construction vehicles and equipment.
+REQUIREMENTS: Heavy-duty tow truck, Permits
+TIME: 2-6 hours
+PRICING_RULES:
+- Base price: $350
+- Distance: $3.50 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 

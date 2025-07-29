@@ -1,0 +1,10 @@
+SERVICE: Scissor Lift Towing
+BASE_PRICE: 180
+DESCRIPTION: Towing service for scissor lifts and similar equipment.
+REQUIREMENTS: Flatbed or specialized trailer, Securement straps
+TIME: 1-2 hours
+PRICING_RULES:
+- Base price: $180
+- Distance: $1.80 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 

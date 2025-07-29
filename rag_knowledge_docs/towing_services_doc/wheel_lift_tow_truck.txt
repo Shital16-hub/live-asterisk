@@ -1,0 +1,10 @@
+SERVICE: Wheel Lift Tow Truck
+BASE_PRICE: 100
+DESCRIPTION: Towing service using a wheel lift tow truck for standard vehicles.
+REQUIREMENTS: Wheel lift tow truck
+TIME: 30-60 minutes
+PRICING_RULES:
+- Base price: $100
+- Distance: $1.00 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 

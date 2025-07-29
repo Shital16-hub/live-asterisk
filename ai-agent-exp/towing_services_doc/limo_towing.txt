@@ -1,0 +1,10 @@
+SERVICE: Limo Towing
+BASE_PRICE: 250
+DESCRIPTION: Towing service for limousines and stretch vehicles.
+REQUIREMENTS: Flatbed tow truck, Soft straps
+TIME: 1-2 hours
+PRICING_RULES:
+- Base price: $250
+- Distance: $2.50 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 

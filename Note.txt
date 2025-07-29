@@ -1,0 +1,49 @@
+ * 443 - primary HTTPS and TURN/TLS
+ * 80 - for TLS issuance
+ * 7881 - for WebRTC over TCP
+ * 3478/UDP - for TURN/UDP
+ * 50000-60000/UDP - for WebRTC over UDP
+ * 1935 - for RTMP Ingress
+ * 7885/UDP - for WHIP Ingress WebRTC
+Server URL: wss://livekit.ecommcube.com
+RTMP Ingress URL: rtmp://livekit.ecommcube.com/x
+WHIP Ingress URL: https://livekit-whip.ecommcube.com/w
+API Key: APILodLwqNKJYqE
+API Secret: TIbzUfLfcCd6KZjZlGgbxnKqTsHBy7zDe5bzDe9gg3UB
+test token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODIyMzAwMjIsImlzcyI6IkFQSUxvZEx3cU5LSllxRSIsIm5hbWUiOiJUZXN0IFVzZXIiLCJuYmYiOjE3NDYyMzAwMjIsInN1YiI6InRlc3QtdXNlciIsInZpZGVvIjp7InJvb20iOiJteS1maXJzdC1yb29tIiwicm9vbUpvaW4iOnRydWV9fQ.k6mkjbNIwzlTYeyHG2sjiliCWDLJhB2cE8wxAtTQtPQ
+
+docker pull livekit/generate
+docker run --rm -it -v$PWD:/output livekit/generate
+
+from livekit import api
+lkapi = api.LiveKitAPI(url=LIVEKIT_URL, api_key="APILodLwqNKJYqE", api_secret="TIbzUfLfcCd6KZjZlGgbxnKqTsHBy7zDe5bzDe9gg3UB")
+
+SIP-agent
+15.204.51.230:5070
+1000
+pass1000
+
+
+
+pjsua   --id sip:testuser@livekit.ecommcube.com   --registrar sip:livekit.ecommcube.com   --username testuser   --password secret   --realm livekit.ecommcube.com   --outbound_proxy sip:livekit.ecommcube.com
+
+
+
+
+docker-compose down && docker-compose up -d && sleep 5
+
+lk sip inbound create inbound-trunk.json --api-key APILodLwqNKJYqE --api-secret TIbzUfLfcCd6KZjZlGgbxnKqTsHBy7zDe5bzDe9gg3UB
+lk sip dispatch create dispatch-rule.json --api-key APILodLwqNKJYqE --api-secret TIbzUfLfcCd6KZjZlGgbxnKqTsHBy7zDe5bzDe9gg3UB
+
+
+
+
+sox caller_tune.wav -r 8000 -c 1 -b 16 caller_tune1.wav
+sox warm.wav -t wav -r 8000 -c 1 -e signed-integer -b 16 tune1.wav
+
+
+docker exec -it $(docker ps -q --filter ancestor=amitgupta4in/asterisk:v1) bash
+
+redis-cli
+DEL voice_leader:room1-_livekitgw_d6XXgvUs5Lwe
+DEL agent_launch_lock:room1-_livekitgw_d6XXgvUs5Lwe

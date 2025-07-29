@@ -1,0 +1,10 @@
+SERVICE: Shipping Container Tow
+BASE_PRICE: 350
+DESCRIPTION: Towing and transport service for shipping containers.
+REQUIREMENTS: Lowboy trailer, Securement straps
+TIME: 2-6 hours
+PRICING_RULES:
+- Base price: $350
+- Distance: $3.50 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 

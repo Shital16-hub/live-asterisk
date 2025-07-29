@@ -1,0 +1,10 @@
+SERVICE: Long Distance Towing
+BASE_PRICE: 300
+DESCRIPTION: Towing service for vehicles over long distances.
+REQUIREMENTS: Flatbed or wheel lift tow truck, Proper permits
+TIME: 2-8 hours
+PRICING_RULES:
+- Base price: $300
+- Distance: $3.00 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 

@@ -1,0 +1,10 @@
+SERVICE: Big Rig Towing
+BASE_PRICE: 600
+DESCRIPTION: Towing service for big rigs and large commercial trucks.
+REQUIREMENTS: Heavy-duty tow truck, Experienced operator
+TIME: 2-5 hours
+PRICING_RULES:
+- Base price: $600
+- Distance: $6.00 per mile
+- Night service (8PM-6AM): +30%
+- Weekend: +20% 

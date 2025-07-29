@@ -1,0 +1,10 @@
+SERVICE: Motorhome Towing
+BASE_PRICE: 200
+DESCRIPTION: Towing service for motorhomes and large RVs.
+REQUIREMENTS: Heavy-duty tow truck, Experienced operator
+TIME: 60-120 minutes
+PRICING_RULES:
+- Base price: $200
+- Distance: $2.00 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 

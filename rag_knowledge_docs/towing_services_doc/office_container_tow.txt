@@ -1,0 +1,10 @@
+SERVICE: Office Container Tow
+BASE_PRICE: 300
+DESCRIPTION: Towing and transport service for office containers.
+REQUIREMENTS: Flatbed or lowboy trailer, Securement straps
+TIME: 2-5 hours
+PRICING_RULES:
+- Base price: $300
+- Distance: $3.00 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 

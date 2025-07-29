@@ -1,0 +1,18 @@
+{
+  "name": "Direct SIP Call to room1",
+  "rule": {
+    "dispatchRuleIndividual": {
+      "roomPrefix": "room1-"
+    }
+  },
+  "roomConfig": {
+    "emptyTimeout": 300,
+    "maxParticipants": 4,
+    "agents": [
+      {
+        "agentName": "inbound-agent",
+        "metadata": "job dispatch metadata"
+      }
+    ]
+  }
+}

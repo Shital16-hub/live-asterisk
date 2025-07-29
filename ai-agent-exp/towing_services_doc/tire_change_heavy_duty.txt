@@ -1,0 +1,9 @@
+SERVICE: Tire Change Heavy Duty
+BASE_PRICE: 120
+DESCRIPTION: Heavy duty tire change service for trucks and large vehicles.
+REQUIREMENTS: Heavy-duty jack, Impact wrench, Replacement tire
+TIME: 30-60 minutes
+PRICING_RULES:
+- Base price: $120
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 

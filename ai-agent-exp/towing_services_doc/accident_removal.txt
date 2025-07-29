@@ -1,0 +1,9 @@
+SERVICE: Accident Removal
+BASE_PRICE: 180
+DESCRIPTION: Removal of vehicles involved in accidents from the scene.
+REQUIREMENTS: Tow truck, Safety equipment
+TIME: 1-2 hours
+PRICING_RULES:
+- Base price: $180
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 

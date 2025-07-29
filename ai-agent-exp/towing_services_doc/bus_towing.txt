@@ -1,0 +1,10 @@
+SERVICE: Bus Towing
+BASE_PRICE: 400
+DESCRIPTION: Towing service for buses and large passenger vehicles.
+REQUIREMENTS: Heavy-duty tow truck, Bus towing attachments
+TIME: 2-4 hours
+PRICING_RULES:
+- Base price: $400
+- Distance: $4.00 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 

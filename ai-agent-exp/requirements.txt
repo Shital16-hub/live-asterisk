@@ -1,0 +1,15 @@
+livekit-agents[elevenlabs]~=1.0
+livekit-agents[openai]~=1.0
+livekit-agents[openai,llamaindex]~=1.0
+livekit-agents[google]~=1.0
+
+livekit-agents
+livekit-plugins-assemblyai
+livekit-plugins-google
+python-dotenv
+livekit-plugins-noise-cancellation
+livekit-agents[elevenlabs]~=1.0
+livekit-agents[google]~=1.0
+livekit-plugins-silero
+llama-index-embeddings-huggingface
+

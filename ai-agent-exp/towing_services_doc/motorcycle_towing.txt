@@ -1,0 +1,10 @@
+SERVICE: Motorcycle Towing
+BASE_PRICE: 100
+DESCRIPTION: Towing service for motorcycles and scooters.
+REQUIREMENTS: Motorcycle trailer or flatbed, Tie-down straps
+TIME: 30-60 minutes
+PRICING_RULES:
+- Base price: $100
+- Distance: $1.00 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 

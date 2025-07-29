@@ -1,0 +1,9 @@
+SERVICE: Tire Change
+BASE_PRICE: 40
+DESCRIPTION: Flat tire change or repair service.
+REQUIREMENTS: Spare tire, Jack, Lug wrench
+TIME: 20-30 minutes
+PRICING_RULES:
+- Base price: $40
+- Night service (8PM-6AM): +15%
+- Weekend: +10% 

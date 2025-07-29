@@ -1,0 +1,10 @@
+SERVICE: Emergency Towing
+BASE_PRICE: 150
+DESCRIPTION: 24/7 emergency towing service for breakdowns and accidents.
+REQUIREMENTS: Tow truck, Emergency response kit
+TIME: 30-90 minutes
+PRICING_RULES:
+- Base price: $150
+- Distance: $1.50 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 

@@ -1,0 +1,10 @@
+SERVICE: Transportation Trailer
+BASE_PRICE: 200
+DESCRIPTION: Trailer transport service for vehicles and equipment.
+REQUIREMENTS: Transportation trailer, Securement straps
+TIME: 1-4 hours
+PRICING_RULES:
+- Base price: $200
+- Distance: $2.00 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 

@@ -1,0 +1,6 @@
+# Add directories or file patterns to ignore during indexing (e.g. foo/ or *.csv)
+ai-agent/logs/*
+ai-agent/transcriptions/*
+caddy_data/*
+rag_knowledge_docs/*
+ai-agent/llamaindex/*

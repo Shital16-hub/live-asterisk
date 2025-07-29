@@ -1,0 +1,10 @@
+{
+  "trunk": {
+    "name": "Asterisk Outbound",
+    "address": "15.204.51.230:5070",
+    "auth_username": "livekitgw",
+    "auth_password": "passgw",
+    "numbers": ["3000"]
+  }
+} 
+

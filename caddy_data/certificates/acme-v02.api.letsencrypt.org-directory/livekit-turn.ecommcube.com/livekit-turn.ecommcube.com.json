@@ -1,0 +1,8 @@
+{
+	"sans": [
+		"livekit-turn.ecommcube.com"
+	],
+	"issuer_data": {
+		"url": "https://acme-v02.api.letsencrypt.org/acme/cert/05303613091b4d524a5381f379e3aa3c8170"
+	}
+}

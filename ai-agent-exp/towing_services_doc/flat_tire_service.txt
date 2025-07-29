@@ -1,0 +1,9 @@
+SERVICE: Flat Tire Service
+BASE_PRICE: 50
+DESCRIPTION: Service for repairing or replacing flat tires on vehicles.
+REQUIREMENTS: Spare tire, Jack, Lug wrench
+TIME: 20-40 minutes
+PRICING_RULES:
+- Base price: $50
+- Night service (8PM-6AM): +15%
+- Weekend: +10% 

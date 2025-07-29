@@ -1,0 +1,10 @@
+SERVICE: UPS Towing
+BASE_PRICE: 350
+DESCRIPTION: Towing service for UPS trucks and delivery vehicles.
+REQUIREMENTS: Heavy-duty tow truck, Experienced operator
+TIME: 1-3 hours
+PRICING_RULES:
+- Base price: $350
+- Distance: $3.50 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 

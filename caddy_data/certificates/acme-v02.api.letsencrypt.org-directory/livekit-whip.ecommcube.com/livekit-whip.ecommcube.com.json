@@ -1,0 +1,8 @@
+{
+	"sans": [
+		"livekit-whip.ecommcube.com"
+	],
+	"issuer_data": {
+		"url": "https://acme-v02.api.letsencrypt.org/acme/cert/05173bd5824a8c0fe2d4a89bfb3ce29646bd"
+	}
+}

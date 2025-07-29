@@ -1,0 +1,10 @@
+SERVICE: Jumpstart
+BASE_PRICE: 50
+DESCRIPTION: Vehicle jumpstart service using jumper cables to start a dead battery.
+REQUIREMENTS: Jumper cables, Working vehicle
+TIME: 15-30 minutes
+PRICING_RULES:
+- Base price: $50
+- Distance: $0.50 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 

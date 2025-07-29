@@ -1,0 +1,10 @@
+SERVICE: Semi Truck Towing
+BASE_PRICE: 500
+DESCRIPTION: Heavy-duty towing service for semi trucks and tractor trailers.
+REQUIREMENTS: Heavy-duty tow truck, Certified operator
+TIME: 2-4 hours
+PRICING_RULES:
+- Base price: $500
+- Distance: $5.00 per mile
+- Night service (8PM-6AM): +30%
+- Weekend: +20% 

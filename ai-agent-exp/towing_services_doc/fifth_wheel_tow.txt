@@ -1,0 +1,10 @@
+SERVICE: Fifth Wheel Tow
+BASE_PRICE: 250
+DESCRIPTION: Towing service for fifth wheel trailers and RVs.
+REQUIREMENTS: Fifth wheel tow truck, Experienced operator
+TIME: 1-3 hours
+PRICING_RULES:
+- Base price: $250
+- Distance: $2.50 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 

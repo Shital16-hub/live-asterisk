@@ -1,0 +1,64 @@
+trunks:
+  - name: FreePBX Inbound Trunk
+    numbers:
+      - sip:*
+    auth_username: livekitgw
+    auth_password: passgw
+    allowed_addresses:
+      - 0.0.0.0/0
+
+dispatch_rules:
+  - name: Direct SIP Call to room1
+    dispatchRuleDirect:
+      roomName: room1
+    room_config:
+      agents:
+        - agent_name: sip-user-[caller_number]
+          meta_data:
+            caller_id: "[caller_number]"
+            provider: "sip"
+      auto_create_room: true
+      empty_timeout: 300
+      max_participants: 10
+sip:
+  bind_address: "0.0.0.0"
+  udp_port: 5060
+  tcp_port: 0
+  username: "livekitgw"
+  password: "passgw"
+  realm: "15.204.51.230"
+  domain: "15.204.51.230"
+  register: false
+  register_interval: 60
+  allowed_peers:
+    - username: "livekitgw"
+      password: "passgw"
+  # flood_protection: false
+  require_authentication: true
+  debug_sip: true
+  handle_direct_calls: true
+  direct_call_room: "room1"
+  external_ip: "15.204.51.230"
+  local_ip: "15.204.51.230"
+  force_bind_address: true
+  network_interface: "eth0"
+  bind_network: "tcp4"
+  force_rport: true
+  nat_handling: true
+  use_external_ip: true
+  listen_interface: "eth0"
+  media_encryption: none
+
+livekit:
+  url: wss://livekit.ecommcube.com
+  api_key: APILodLwqNKJYqE
+  api_secret: TIbzUfLfcCd6KZjZlGgbxnKqTsHBy7zDe5bzDe9gg3UB
+  room_name_prefix: "room1"
+
+redis:
+  address: 127.0.0.1:6379
+  password: "2123tt"
+
+logging:
+  level: debug
+

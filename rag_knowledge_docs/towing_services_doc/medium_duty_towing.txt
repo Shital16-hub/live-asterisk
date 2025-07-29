@@ -1,0 +1,10 @@
+SERVICE: Medium Duty Towing
+BASE_PRICE: 200
+DESCRIPTION: Towing service for medium-duty vehicles and trucks.
+REQUIREMENTS: Medium-duty tow truck, Experienced operator
+TIME: 1-3 hours
+PRICING_RULES:
+- Base price: $200
+- Distance: $2.00 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 

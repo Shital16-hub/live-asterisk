@@ -1,0 +1,10 @@
+SERVICE: Heavy Duty Towing
+BASE_PRICE: 400
+DESCRIPTION: Towing service for heavy-duty vehicles and equipment.
+REQUIREMENTS: Heavy-duty tow truck, Certified operator
+TIME: 2-5 hours
+PRICING_RULES:
+- Base price: $400
+- Distance: $4.00 per mile
+- Night service (8PM-6AM): +30%
+- Weekend: +20% 

@@ -1,0 +1,64 @@
+Voice Categories
+
+Standard Voices
+
+These six voices form the core set, with varied gender cues and tonal qualities:
+	•	Alloy – a neutral voice that can sound either masculine or feminine  ￼
+	•	Echo – a crisp, masculine tone optimized for intelligibility over compressed audio  ￼
+	•	Fable – a warm masculine voice that conveys empathy and friendliness  ￼
+	•	Onyx – a deeper, authoritative masculine voice ideal for clear IVR prompts  ￼
+	•	Nova – a bright feminine voice that feels approachable and upbeat  ￼
+	•	Shimmer – a gentle feminine voice with a calm, professional disposition  ￼
+
+Expressive Voices
+
+These five newer voices are designed for added personality and expressiveness:
+	•	Ash – friendly and conversational  ￼
+	•	Ballad – melodic with subtle emotional inflections  ￼
+	•	Coral – clear yet warm, balancing clarity and friendliness  ￼
+	•	Sage – measured and thoughtful, good for explanatory or instructional prompts  ￼
+	•	Verse – dynamic and engaging, suited for more theatrical or storytelling scenarios  ￼
+
+Recommendations for Telephony Service
+
+When selecting voices for telephony (IVR, automated customer support, outbound calls), consider:
+	•	Onyx for clear, authoritative prompts that cut through line noise  ￼
+	•	Echo for crisp enunciation, especially in menu-driven IVR systems  ￼
+	•	Fable for a warmer, empathetic tone in customer-facing scenarios  ￼
+	•	Nova or Shimmer for a friendly, approachable voice in support or notification calls  ￼
+	•	Ash or Coral if you want a more conversational or characterful style  ￼
+
+
+
+tts = openai.TTS(
+    model="gpt-4o-mini-tts",
+    voice="onyx",  # or "shimmer" / "fable" based on desired emphasis
+    instructions=(
+        # 1. Greeting Structure
+        "Open with a real greeting: clearly identify your company and ask how you can help, "
+        # (e.g., 'Speedy Peedy Towing, how can I help you today?')  [oai_citation:7‡etereman.com](https://etereman.com/remanu/2017/10/06/how-a-hello-can-help-your-business/)
+
+        # 2. Tone & Empathy
+        "Speak in a calm, reassuring, and professional tone—acknowledge the caller’s situation with empathy, "
+        # (e.g., 'I understand how stressful this can be; I’m here to help.')  [oai_citation:8‡sqmgroup.com](https://www.sqmgroup.com/resources/library/blog/5-tips-improving-tone-voice-call-center)
+
+        # 3. Pacing
+        "Use moderate pacing to ensure clarity and give callers time to process information, "
+        # (leveraging the model’s rate controls)  [oai_citation:9‡softcery.com](https://softcery.com/lab/how-to-choose-stt-tts-for-ai-voice-agents-in-2025-a-comprehensive-guide/)
+
+        # 4. Key Information & Pauses
+        "Emphasize critical details (ETA, next steps) with brief pauses before and after important points, "
+        # to draw attention  [oai_citation:10‡softcery.com](https://softcery.com/lab/how-to-choose-stt-tts-for-ai-voice-agents-in-2025-a-comprehensive-guide/)
+
+        # 5. Backchanneling
+        "Incorporate supportive backchannel responses like 'I see,' 'Got it,' or 'Understood' to create a natural conversational flow, "
+        # enhancing realism  [oai_citation:11‡regal.ai](https://www.regal.ai/blog/text-to-speech-provider-ai-voice-agents)
+
+        # 6. Positive, Solution-Focused Language
+        "Use positive, solution-oriented phrasing—focus on what you can do (e.g., 'Your tow is on the way; you’re in good hands') "
+        # to reinforce confidence  [oai_citation:12‡sqmgroup.com](https://www.sqmgroup.com/resources/library/blog/5-tips-improving-tone-voice-call-center)
+
+        # 7. Closing Reassurance
+        "Conclude with a clear reassurance and next step reminder before ending the interaction."
+    )
+)

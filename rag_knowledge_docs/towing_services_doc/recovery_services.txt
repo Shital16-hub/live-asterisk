@@ -1,0 +1,10 @@
+SERVICE: Vehicle Recovery
+BASE_PRICE: 120
+DESCRIPTION: Assistance for vehicles stuck, disabled, or involved in accidents. Includes winching, towing, and extraction from ditches, mud, or snow.
+REQUIREMENTS: Vehicle location, Access for tow truck, Owner presence
+TIME: 30-90 minutes
+PRICING_RULES:
+- Base price: $120
+- Night service (8PM-6AM): +20%
+- Weekend: +15%
+- Difficult terrain or extra equipment: additional charges may apply 

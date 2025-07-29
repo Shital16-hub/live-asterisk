@@ -1,0 +1,10 @@
+SERVICE: Car Battery Change
+BASE_PRICE: 60
+DESCRIPTION: On-site replacement of dead or failing car batteries. Technician tests and installs a new battery if needed.
+REQUIREMENTS: Vehicle location, Access to battery, Replacement battery (if not provided)
+TIME: 20-40 minutes
+PRICING_RULES:
+- Base price: $60
+- Night service (8PM-6AM): +15%
+- Weekend: +10%
+- Battery cost not included (varies by vehicle) 

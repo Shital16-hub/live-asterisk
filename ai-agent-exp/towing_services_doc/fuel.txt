@@ -1,0 +1,10 @@
+SERVICE: Fuel Delivery
+BASE_PRICE: 35
+DESCRIPTION: Emergency fuel delivery service for empty tanks.
+REQUIREMENTS: Fuel can, Appropriate fuel type
+TIME: 20-40 minutes
+PRICING_RULES:
+- Base price: $35
+- Distance: $0.75 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 

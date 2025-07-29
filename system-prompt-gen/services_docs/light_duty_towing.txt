@@ -1,0 +1,10 @@
+SERVICE: Light Duty Towing
+BASE_PRICE: 100
+DESCRIPTION: Towing service for light-duty vehicles and passenger cars.
+REQUIREMENTS: Light-duty tow truck
+TIME: 30-90 minutes
+PRICING_RULES:
+- Base price: $100
+- Distance: $1.00 per mile
+- Night service (8PM-6AM): +15%
+- Weekend: +10% 

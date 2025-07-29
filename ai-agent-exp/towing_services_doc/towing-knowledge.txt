@@ -1,0 +1,555 @@
+===== 18_wheeler_towing.txt =====
+SERVICE: 18 Wheeler Towing
+BASE_PRICE: 500
+DESCRIPTION: Heavy-duty towing service for 18 wheeler trucks.
+REQUIREMENTS: Heavy-duty tow truck, Certified operator
+TIME: 2-4 hours
+PRICING_RULES:
+- Base price: $500
+- Distance: $5.00 per mile
+- Night service (8PM-6AM): +30%
+- Weekend: +20% 
+
+===== accident_removal.txt =====
+SERVICE: Accident Removal
+BASE_PRICE: 180
+DESCRIPTION: Removal of vehicles involved in accidents from the scene.
+REQUIREMENTS: Tow truck, Safety equipment
+TIME: 1-2 hours
+PRICING_RULES:
+- Base price: $180
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== big_rig_towing.txt =====
+SERVICE: Big Rig Towing
+BASE_PRICE: 600
+DESCRIPTION: Towing service for big rigs and large commercial trucks.
+REQUIREMENTS: Heavy-duty tow truck, Experienced operator
+TIME: 2-5 hours
+PRICING_RULES:
+- Base price: $600
+- Distance: $6.00 per mile
+- Night service (8PM-6AM): +30%
+- Weekend: +20% 
+
+===== boat_towing.txt =====
+SERVICE: Boat Towing
+BASE_PRICE: 220
+DESCRIPTION: Towing service for boats and marine vehicles.
+REQUIREMENTS: Boat trailer, Securement straps
+TIME: 1-3 hours
+PRICING_RULES:
+- Base price: $220
+- Distance: $2.20 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== box_truck_towing.txt =====
+SERVICE: Box Truck Towing
+BASE_PRICE: 300
+DESCRIPTION: Towing service for box trucks and delivery vehicles.
+REQUIREMENTS: Heavy-duty tow truck, Experienced operator
+TIME: 1-3 hours
+PRICING_RULES:
+- Base price: $300
+- Distance: $3.00 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 
+
+===== broken_ignition_key_removal.txt =====
+SERVICE: Broken Ignition Key Removal
+BASE_PRICE: 80
+DESCRIPTION: Removal of broken ignition keys from vehicle ignition.
+REQUIREMENTS: Key extraction tools, Locksmith skills
+TIME: 30-60 minutes
+PRICING_RULES:
+- Base price: $80
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== bus_towing.txt =====
+SERVICE: Bus Towing
+BASE_PRICE: 400
+DESCRIPTION: Towing service for buses and large passenger vehicles.
+REQUIREMENTS: Heavy-duty tow truck, Bus towing attachments
+TIME: 2-4 hours
+PRICING_RULES:
+- Base price: $400
+- Distance: $4.00 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 
+
+===== car_lockout.txt =====
+SERVICE: Car Lockout
+BASE_PRICE: 60
+DESCRIPTION: Unlocking car doors when keys are locked inside.
+REQUIREMENTS: Lockout kit, Proof of ownership
+TIME: 15-25 minutes
+PRICING_RULES:
+- Base price: $60
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== change_car_battery.txt =====
+SERVICE: Car Battery Change
+BASE_PRICE: 60
+DESCRIPTION: On-site replacement of dead or failing car batteries. Technician tests and installs a new battery if needed.
+REQUIREMENTS: Vehicle location, Access to battery, Replacement battery (if not provided)
+TIME: 20-40 minutes
+PRICING_RULES:
+- Base price: $60
+- Night service (8PM-6AM): +15%
+- Weekend: +10%
+- Battery cost not included (varies by vehicle) 
+
+===== commercial_towing.txt =====
+SERVICE: Commercial Towing
+BASE_PRICE: 350
+DESCRIPTION: Towing service for commercial vehicles and fleets.
+REQUIREMENTS: Heavy-duty tow truck, Commercial towing permit
+TIME: 1-3 hours
+PRICING_RULES:
+- Base price: $350
+- Distance: $3.50 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 
+
+===== construction_towing.txt =====
+SERVICE: Construction Towing
+BASE_PRICE: 350
+DESCRIPTION: Towing service for construction vehicles and equipment.
+REQUIREMENTS: Heavy-duty tow truck, Permits
+TIME: 2-6 hours
+PRICING_RULES:
+- Base price: $350
+- Distance: $3.50 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 
+
+===== dump_truck_towing.txt =====
+SERVICE: Dump Truck Towing
+BASE_PRICE: 350
+DESCRIPTION: Towing service for dump trucks and heavy-duty vehicles.
+REQUIREMENTS: Heavy-duty tow truck, Experienced operator
+TIME: 2-4 hours
+PRICING_RULES:
+- Base price: $350
+- Distance: $3.50 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 
+
+===== emergency_towing.txt =====
+SERVICE: Emergency Towing
+BASE_PRICE: 150
+DESCRIPTION: 24/7 emergency towing service for breakdowns and accidents.
+REQUIREMENTS: Tow truck, Emergency response kit
+TIME: 30-90 minutes
+PRICING_RULES:
+- Base price: $150
+- Distance: $1.50 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 
+
+===== fifth_wheel_tow.txt =====
+SERVICE: Fifth Wheel Tow
+BASE_PRICE: 250
+DESCRIPTION: Towing service for fifth wheel trailers and RVs.
+REQUIREMENTS: Fifth wheel tow truck, Experienced operator
+TIME: 1-3 hours
+PRICING_RULES:
+- Base price: $250
+- Distance: $2.50 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== flat_tire_service.txt =====
+SERVICE: Flat Tire Service
+BASE_PRICE: 50
+DESCRIPTION: Service for repairing or replacing flat tires on vehicles.
+REQUIREMENTS: Spare tire, Jack, Lug wrench
+TIME: 20-40 minutes
+PRICING_RULES:
+- Base price: $50
+- Night service (8PM-6AM): +15%
+- Weekend: +10% 
+
+===== flatbed_towing.txt =====
+SERVICE: Flatbed Towing
+BASE_PRICE: 130
+DESCRIPTION: Towing service using a flatbed truck for safe vehicle transport.
+REQUIREMENTS: Flatbed tow truck
+TIME: 45-90 minutes
+PRICING_RULES:
+- Base price: $130
+- Distance: $1.30 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== fuel.txt =====
+SERVICE: Fuel Delivery
+BASE_PRICE: 35
+DESCRIPTION: Emergency fuel delivery service for empty tanks.
+REQUIREMENTS: Fuel can, Appropriate fuel type
+TIME: 20-40 minutes
+PRICING_RULES:
+- Base price: $35
+- Distance: $0.75 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== heavy_duty_towing.txt =====
+SERVICE: Heavy Duty Towing
+BASE_PRICE: 400
+DESCRIPTION: Towing service for heavy-duty vehicles and equipment.
+REQUIREMENTS: Heavy-duty tow truck, Certified operator
+TIME: 2-5 hours
+PRICING_RULES:
+- Base price: $400
+- Distance: $4.00 per mile
+- Night service (8PM-6AM): +30%
+- Weekend: +20% 
+
+===== jumpstart.txt =====
+SERVICE: Jumpstart
+BASE_PRICE: 50
+DESCRIPTION: Vehicle jumpstart service using jumper cables to start a dead battery.
+REQUIREMENTS: Jumper cables, Working vehicle
+TIME: 15-30 minutes
+PRICING_RULES:
+- Base price: $50
+- Distance: $0.50 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== light_duty_towing.txt =====
+SERVICE: Light Duty Towing
+BASE_PRICE: 100
+DESCRIPTION: Towing service for light-duty vehicles and passenger cars.
+REQUIREMENTS: Light-duty tow truck
+TIME: 30-90 minutes
+PRICING_RULES:
+- Base price: $100
+- Distance: $1.00 per mile
+- Night service (8PM-6AM): +15%
+- Weekend: +10% 
+
+===== limo_towing.txt =====
+SERVICE: Limo Towing
+BASE_PRICE: 250
+DESCRIPTION: Towing service for limousines and stretch vehicles.
+REQUIREMENTS: Flatbed tow truck, Soft straps
+TIME: 1-2 hours
+PRICING_RULES:
+- Base price: $250
+- Distance: $2.50 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== lockout.txt =====
+SERVICE: Lockout
+BASE_PRICE: 60
+DESCRIPTION: Vehicle lockout service to unlock car doors when keys are inside.
+REQUIREMENTS: Lockout kit, Proof of ownership
+TIME: 15-25 minutes
+PRICING_RULES:
+- Base price: $60
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== long_distance_towing.txt =====
+SERVICE: Long Distance Towing
+BASE_PRICE: 300
+DESCRIPTION: Towing service for vehicles over long distances.
+REQUIREMENTS: Flatbed or wheel lift tow truck, Proper permits
+TIME: 2-8 hours
+PRICING_RULES:
+- Base price: $300
+- Distance: $3.00 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== low_clearance_towing.txt =====
+SERVICE: Low Clearance Towing
+BASE_PRICE: 120
+DESCRIPTION: Towing service for vehicles in low clearance areas such as parking garages.
+REQUIREMENTS: Low clearance tow truck, Skilled operator
+TIME: 45-90 minutes
+PRICING_RULES:
+- Base price: $120
+- Distance: $1.50 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== lowboy_towing.txt =====
+SERVICE: Lowboy Towing
+BASE_PRICE: 400
+DESCRIPTION: Towing service using a lowboy trailer for heavy equipment or vehicles.
+REQUIREMENTS: Lowboy trailer, Experienced operator
+TIME: 2-6 hours
+PRICING_RULES:
+- Base price: $400
+- Distance: $4.00 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 
+
+===== luxury_car_towing.txt =====
+SERVICE: Luxury Car Towing
+BASE_PRICE: 250
+DESCRIPTION: Specialized towing for luxury and exotic vehicles.
+REQUIREMENTS: Flatbed tow truck, Soft straps, Experienced operator
+TIME: 45-90 minutes
+PRICING_RULES:
+- Base price: $250
+- Distance: $2.50 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 
+
+===== medium_duty_towing.txt =====
+SERVICE: Medium Duty Towing
+BASE_PRICE: 200
+DESCRIPTION: Towing service for medium-duty vehicles and trucks.
+REQUIREMENTS: Medium-duty tow truck, Experienced operator
+TIME: 1-3 hours
+PRICING_RULES:
+- Base price: $200
+- Distance: $2.00 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== motorcycle_towing.txt =====
+SERVICE: Motorcycle Towing
+BASE_PRICE: 100
+DESCRIPTION: Towing service for motorcycles and scooters.
+REQUIREMENTS: Motorcycle trailer or flatbed, Tie-down straps
+TIME: 30-60 minutes
+PRICING_RULES:
+- Base price: $100
+- Distance: $1.00 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== motorhome_towing.txt =====
+SERVICE: Motorhome Towing
+BASE_PRICE: 200
+DESCRIPTION: Towing service for motorhomes and large RVs.
+REQUIREMENTS: Heavy-duty tow truck, Experienced operator
+TIME: 60-120 minutes
+PRICING_RULES:
+- Base price: $200
+- Distance: $2.00 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 
+
+===== off_road_vehicle_recovery.txt =====
+SERVICE: Off Road Vehicle Recovery
+BASE_PRICE: 300
+DESCRIPTION: Recovery service for vehicles stuck off-road or in difficult terrain.
+REQUIREMENTS: Winch, Recovery straps, Off-road vehicle
+TIME: 1-4 hours
+PRICING_RULES:
+- Base price: $300
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 
+
+===== office_container_tow.txt =====
+SERVICE: Office Container Tow
+BASE_PRICE: 300
+DESCRIPTION: Towing and transport service for office containers.
+REQUIREMENTS: Flatbed or lowboy trailer, Securement straps
+TIME: 2-5 hours
+PRICING_RULES:
+- Base price: $300
+- Distance: $3.00 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== recovery_services.txt =====
+SERVICE: Vehicle Recovery
+BASE_PRICE: 120
+DESCRIPTION: Assistance for vehicles stuck, disabled, or involved in accidents. Includes winching, towing, and extraction from ditches, mud, or snow.
+REQUIREMENTS: Vehicle location, Access for tow truck, Owner presence
+TIME: 30-90 minutes
+PRICING_RULES:
+- Base price: $120
+- Night service (8PM-6AM): +20%
+- Weekend: +15%
+- Difficult terrain or extra equipment: additional charges may apply 
+
+===== roadside_assistance.txt =====
+SERVICE: Roadside Assistance
+BASE_PRICE: 60
+DESCRIPTION: General roadside help including jump starts, tire changes, and lockouts.
+REQUIREMENTS: Roadside assistance kit
+TIME: 20-60 minutes
+PRICING_RULES:
+- Base price: $60
+- Night service (8PM-6AM): +15%
+- Weekend: +10% 
+
+===== rv_towing.txt =====
+SERVICE: RV Towing
+BASE_PRICE: 220
+DESCRIPTION: Towing service for recreational vehicles (RVs).
+REQUIREMENTS: Heavy-duty tow truck, RV towing attachments
+TIME: 1-3 hours
+PRICING_RULES:
+- Base price: $220
+- Distance: $2.20 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== school_bus_towing.txt =====
+SERVICE: School Bus Towing
+BASE_PRICE: 400
+DESCRIPTION: Towing service for school buses and large passenger vehicles.
+REQUIREMENTS: Heavy-duty tow truck, Bus towing attachments
+TIME: 2-4 hours
+PRICING_RULES:
+- Base price: $400
+- Distance: $4.00 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 
+
+===== scissor_lift_towing.txt =====
+SERVICE: Scissor Lift Towing
+BASE_PRICE: 180
+DESCRIPTION: Towing service for scissor lifts and similar equipment.
+REQUIREMENTS: Flatbed or specialized trailer, Securement straps
+TIME: 1-2 hours
+PRICING_RULES:
+- Base price: $180
+- Distance: $1.80 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== semi_truck_towing.txt =====
+SERVICE: Semi Truck Towing
+BASE_PRICE: 500
+DESCRIPTION: Heavy-duty towing service for semi trucks and tractor trailers.
+REQUIREMENTS: Heavy-duty tow truck, Certified operator
+TIME: 2-4 hours
+PRICING_RULES:
+- Base price: $500
+- Distance: $5.00 per mile
+- Night service (8PM-6AM): +30%
+- Weekend: +20% 
+
+===== shipping_container_tow.txt =====
+SERVICE: Shipping Container Tow
+BASE_PRICE: 350
+DESCRIPTION: Towing and transport service for shipping containers.
+REQUIREMENTS: Lowboy trailer, Securement straps
+TIME: 2-6 hours
+PRICING_RULES:
+- Base price: $350
+- Distance: $3.50 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 
+
+===== tire.txt =====
+SERVICE: Tire Change
+BASE_PRICE: 40
+DESCRIPTION: Flat tire change or repair service.
+REQUIREMENTS: Spare tire, Jack, Lug wrench
+TIME: 20-30 minutes
+PRICING_RULES:
+- Base price: $40
+- Night service (8PM-6AM): +15%
+- Weekend: +10% 
+
+===== tire_change_heavy_duty.txt =====
+SERVICE: Tire Change Heavy Duty
+BASE_PRICE: 120
+DESCRIPTION: Heavy duty tire change service for trucks and large vehicles.
+REQUIREMENTS: Heavy-duty jack, Impact wrench, Replacement tire
+TIME: 30-60 minutes
+PRICING_RULES:
+- Base price: $120
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== towing.txt =====
+SERVICE: Towing
+BASE_PRICE: 75
+DESCRIPTION: Vehicle towing service for breakdowns or accidents.
+REQUIREMENTS: Tow truck, Valid license
+TIME: 30-60 minutes
+PRICING_RULES:
+- Base price: $75
+- Distance: $1.00 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 
+
+===== towing_cars_without_plates.txt =====
+SERVICE: Towing Cars Without Plates
+BASE_PRICE: 130
+DESCRIPTION: Towing service for vehicles without license plates.
+REQUIREMENTS: Standard tow truck, Proof of ownership
+TIME: 30-90 minutes
+PRICING_RULES:
+- Base price: $130
+- Distance: $1.30 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== towing_for_uber_cars.txt =====
+SERVICE: Towing For Uber Cars
+BASE_PRICE: 120
+DESCRIPTION: Towing service for Uber and rideshare vehicles.
+REQUIREMENTS: Standard tow truck, Uber driver verification
+TIME: 30-90 minutes
+PRICING_RULES:
+- Base price: $120
+- Distance: $1.20 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== transportation_trailer.txt =====
+SERVICE: Transportation Trailer
+BASE_PRICE: 200
+DESCRIPTION: Trailer transport service for vehicles and equipment.
+REQUIREMENTS: Transportation trailer, Securement straps
+TIME: 1-4 hours
+PRICING_RULES:
+- Base price: $200
+- Distance: $2.00 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== ups_towing.txt =====
+SERVICE: UPS Towing
+BASE_PRICE: 350
+DESCRIPTION: Towing service for UPS trucks and delivery vehicles.
+REQUIREMENTS: Heavy-duty tow truck, Experienced operator
+TIME: 1-3 hours
+PRICING_RULES:
+- Base price: $350
+- Distance: $3.50 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 
+
+===== wheel_lift_tow_truck.txt =====
+SERVICE: Wheel Lift Tow Truck
+BASE_PRICE: 100
+DESCRIPTION: Towing service using a wheel lift tow truck for standard vehicles.
+REQUIREMENTS: Wheel lift tow truck
+TIME: 30-60 minutes
+PRICING_RULES:
+- Base price: $100
+- Distance: $1.00 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 
+
+===== winch.txt =====
+SERVICE: Winch Service
+BASE_PRICE: 80
+DESCRIPTION: Pulling vehicles out of mud, snow, sand, or ditches using a tow truck with a winch.
+REQUIREMENTS: Vehicle location, Access for tow truck, Owner presence
+TIME: 20-60 minutes
+PRICING_RULES:
+- Base price: $80
+- Night service (8PM-6AM): +15%
+- Weekend: +10%
+- Difficult access or extra equipment: additional charges may apply 
+

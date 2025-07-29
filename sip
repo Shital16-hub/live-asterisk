@@ -1,0 +1,1 @@
+pjsua   --id sip:336@freepbx.callrings.com   --registrar sip:freepbx.callrings.com   --username 336   --password 38610c435a0bcdb09289f00ae79ebc43   --realm freepbx.callrings.com   

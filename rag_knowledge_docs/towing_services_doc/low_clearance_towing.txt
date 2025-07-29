@@ -1,0 +1,10 @@
+SERVICE: Low Clearance Towing
+BASE_PRICE: 120
+DESCRIPTION: Towing service for vehicles in low clearance areas such as parking garages.
+REQUIREMENTS: Low clearance tow truck, Skilled operator
+TIME: 45-90 minutes
+PRICING_RULES:
+- Base price: $120
+- Distance: $1.50 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 

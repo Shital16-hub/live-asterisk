@@ -1,0 +1,10 @@
+SERVICE: Towing
+BASE_PRICE: 75
+DESCRIPTION: Vehicle towing service for breakdowns or accidents.
+REQUIREMENTS: Tow truck, Valid license
+TIME: 30-60 minutes
+PRICING_RULES:
+- Base price: $75
+- Distance: $1.00 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 

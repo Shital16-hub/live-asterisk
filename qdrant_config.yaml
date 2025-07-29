@@ -1,0 +1,4 @@
+log_level: INFO
+
+service:
+  api_key: "2123tt"

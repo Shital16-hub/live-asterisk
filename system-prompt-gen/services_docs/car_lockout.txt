@@ -1,0 +1,9 @@
+SERVICE: Car Lockout
+BASE_PRICE: 60
+DESCRIPTION: Unlocking car doors when keys are locked inside.
+REQUIREMENTS: Lockout kit, Proof of ownership
+TIME: 15-25 minutes
+PRICING_RULES:
+- Base price: $60
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 

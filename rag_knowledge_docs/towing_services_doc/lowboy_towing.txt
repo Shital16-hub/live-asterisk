@@ -1,0 +1,10 @@
+SERVICE: Lowboy Towing
+BASE_PRICE: 400
+DESCRIPTION: Towing service using a lowboy trailer for heavy equipment or vehicles.
+REQUIREMENTS: Lowboy trailer, Experienced operator
+TIME: 2-6 hours
+PRICING_RULES:
+- Base price: $400
+- Distance: $4.00 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 

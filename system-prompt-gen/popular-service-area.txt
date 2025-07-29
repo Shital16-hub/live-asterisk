@@ -1,0 +1,76 @@
+
+LOCATION: California
+Los Angeles, CA
+San Diego, CA
+San Francisco, CA
+Sacramento, CA
+San Jose, CA
+Anaheim, CA
+
+LOCATION: Texas
+Houston, TX
+Dallas, TX
+Austin, TX
+San Antonio, TX
+Fort Worth, TX
+El Paso, TX
+
+LOCATION: Florida
+Miami, FL
+Orlando, FL
+Tampa, FL
+Jacksonville, FL
+Fort Lauderdale, FL
+
+LOCATION: New York
+New York, NY
+Buffalo, NY
+Rochester, NY
+Albany, NY
+
+LOCATION: Illinois
+Chicago, IL
+Springfield, IL
+
+LOCATION: Georgia
+Atlanta, GA
+Savannah, GA
+
+LOCATION: North Carolina
+Charlotte, NC
+Raleigh, NC
+Durham, NC
+Greensboro, NC
+
+LOCATION: Ohio
+Columbus, OH
+Cleveland, OH
+Cincinnati, OH
+
+LOCATION: Pennsylvania
+Philadelphia, PA
+Pittsburgh, PA
+
+LOCATION: Arizona
+Phoenix, AZ
+Tucson, AZ
+
+LOCATION: Nevada
+Las Vegas, NV
+Reno, NV
+
+LOCATION: Tennessee
+Nashville, TN
+Memphis, TN
+
+LOCATION: Virginia
+Virginia Beach, VA
+Richmond, VA
+
+LOCATION: New Jersey
+Newark, NJ
+Jersey City, NJ
+
+LOCATION: Colorado
+Denver, CO
+Colorado Springs, CO

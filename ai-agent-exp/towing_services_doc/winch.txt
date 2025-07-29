@@ -1,0 +1,10 @@
+SERVICE: Winch Service
+BASE_PRICE: 80
+DESCRIPTION: Pulling vehicles out of mud, snow, sand, or ditches using a tow truck with a winch.
+REQUIREMENTS: Vehicle location, Access for tow truck, Owner presence
+TIME: 20-60 minutes
+PRICING_RULES:
+- Base price: $80
+- Night service (8PM-6AM): +15%
+- Weekend: +10%
+- Difficult access or extra equipment: additional charges may apply 

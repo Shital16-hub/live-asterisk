@@ -1,0 +1,10 @@
+SERVICE: Boat Towing
+BASE_PRICE: 220
+DESCRIPTION: Towing service for boats and marine vehicles.
+REQUIREMENTS: Boat trailer, Securement straps
+TIME: 1-3 hours
+PRICING_RULES:
+- Base price: $220
+- Distance: $2.20 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 

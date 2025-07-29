@@ -1,0 +1,59 @@
+{
+  "rules": [
+    {
+      "comment": "Flag potential spam or marketing calls.",
+      "stage": "spam_check",
+      "field": "full_transcript",
+      "operator": "contains_any",
+      "value": [
+        "marketing", "business loan", "offer", "free vacation",
+        "credit card", "survey", "congratulations", "car warranty"
+      ],
+      "action": "spam"
+    },
+    {
+      "comment": "Immediately transfer if the user mentions an emergency or unsafe situation.",
+      "stage": "emergency_check",
+      "field": "full_transcript",
+      "operator": "contains_any",
+      "value": [
+        "unsafe", "not safe", "danger", "emergency", "hurt", "injured", "fire", "crash"
+      ],
+      "action": "transfer"
+    },
+    {
+      "comment": "End the call for simple roadside assistance after gathering info.",
+      "stage": "routing",
+      "field": "service",
+      "operator": "contains_any",
+      "value": [
+        "fuel", "gas", "lockout", "jump start", "battery", "tire", "key", "ignition", "roadside"
+      ],
+      "action": "end_call"
+    },
+    {
+      "comment": "Always transfer for complex towing or accident scenarios.",
+      "stage": "routing",
+      "field": "service",
+      "operator": "contains_any",
+      "value": [
+        "towing", "tow", "accident", "recovery", "winch", "heavy duty", 
+        "commercial", "big rig", "semi", "bus", "trailer", 
+        "flatbed", "motorhome", "rv"
+      ],
+      "action": "transfer"
+    },
+    {
+      "comment": "Transfer if the caller explicitly asks to speak to a human.",
+      "stage": "routing",
+      "field": "full_transcript",
+      "operator": "contains_any",
+      "value": [
+        "human", "agent", "person", "representative", "operator", 
+        "someone", "transfer", "speak to", "talk to"
+      ],
+      "action": "transfer"
+    }
+  ],
+  "default_action": "no_action"
+} 

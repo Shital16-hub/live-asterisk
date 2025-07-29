@@ -1,0 +1,9 @@
+SERVICE: Roadside Assistance
+BASE_PRICE: 60
+DESCRIPTION: General roadside help including jump starts, tire changes, and lockouts.
+REQUIREMENTS: Roadside assistance kit
+TIME: 20-60 minutes
+PRICING_RULES:
+- Base price: $60
+- Night service (8PM-6AM): +15%
+- Weekend: +10% 

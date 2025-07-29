@@ -1,0 +1,20 @@
+sip:
+  bind_address: 0.0.0.0
+  udp_port: 5060
+  tcp_port: 5060
+  username: "336"
+  password: "38610c435a0bcdb09289f00ae79ebc43"
+  realm: "freepbx.callrings.com"
+
+livekit:
+  url: wss://livekit.ecommcube.com
+  api_key: APILodLwqNKJYqE
+  api_secret: TIbzUfLfcCd6KZjZlGgbxnKqTsHBy7zDe5bzDe9gg3UB
+  room_name_prefix: "room1"
+
+redis:
+  address: 127.0.0.1:6379
+  password: "2123tt"
+
+logging:
+  level: debug

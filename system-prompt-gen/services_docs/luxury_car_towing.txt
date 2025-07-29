@@ -1,0 +1,10 @@
+SERVICE: Luxury Car Towing
+BASE_PRICE: 250
+DESCRIPTION: Specialized towing for luxury and exotic vehicles.
+REQUIREMENTS: Flatbed tow truck, Soft straps, Experienced operator
+TIME: 45-90 minutes
+PRICING_RULES:
+- Base price: $250
+- Distance: $2.50 per mile
+- Night service (8PM-6AM): +25%
+- Weekend: +15% 

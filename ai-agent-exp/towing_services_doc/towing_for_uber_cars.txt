@@ -1,0 +1,10 @@
+SERVICE: Towing For Uber Cars
+BASE_PRICE: 120
+DESCRIPTION: Towing service for Uber and rideshare vehicles.
+REQUIREMENTS: Standard tow truck, Uber driver verification
+TIME: 30-90 minutes
+PRICING_RULES:
+- Base price: $120
+- Distance: $1.20 per mile
+- Night service (8PM-6AM): +20%
+- Weekend: +10% 

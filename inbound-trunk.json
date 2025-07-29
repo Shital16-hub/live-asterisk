@@ -1,0 +1,9 @@
+{
+  "trunk": {
+    "name": "FreePBX Inbound Trunk",
+    "numbers": ["sip:2000@15.204.51.230:5070"],
+    "auth_username": "livekitgw",
+    "auth_password": "passgw",
+    "allowed_addresses": ["0.0.0.0/0"]
+  }
+}
